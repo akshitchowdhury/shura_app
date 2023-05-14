@@ -22,7 +22,14 @@ setText(newText)
     setText(event.target.value)
     
  }
+
+
+ 
 const[text, setText] = useState("Enter text here")
+
+// const[color, setColor] = useState()
+
+
 
     return (
 <>
@@ -47,6 +54,12 @@ Convert to Upper-case
 Convert to Lower-case
 
 </button>
+
+
+{/* <div className="form-check form-switch">
+  <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={dark}/>
+  <label className="form-check-label" for="flexSwitchCheckDefault">Dark mode</label>
+</div> */}
 
 </div>
 </div>
